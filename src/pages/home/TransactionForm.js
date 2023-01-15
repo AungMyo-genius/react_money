@@ -3,6 +3,7 @@ import { useFirestore } from '../../hooks/useFirestore'
 
 export default function TransactionForm({ uid }) {
   const [name, setName] = useState('')
+  const [total, setTotal ] = useState(0)
   const [amount, setAmount] = useState('')
   const { addDocument, response } = useFirestore('transactions')
 
@@ -13,7 +14,8 @@ export default function TransactionForm({ uid }) {
       name, 
       amount,
     })
-    console.log(uid, name, amount);
+    const num = total + amount
+    setTotal(num)
   }
 
   // reset the form fields

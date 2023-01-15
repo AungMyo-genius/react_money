@@ -29,7 +29,6 @@ export const AuthContextProvider = ({ children }) => {
       unsub()
     })
   }, [])
-  console.log( state.user, state.authIsReady)
   
   return (
     <AuthContext.Provider value={{ ...state, dispatch }}>

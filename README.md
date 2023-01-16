@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-Live URL LINK- https://mymoney-34ccf.firebaseapp.com/login
+# Live URL LINK- https://mymoney-34ccf.firebaseapp.com/login
+# Test account ( acc - test123@gmail.com, pw - test123 )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
